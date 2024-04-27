@@ -19,6 +19,6 @@ PDF Autofill é um projeto open source e está aberto a contribuições de qualq
 PDF Autofill está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
 ### Autor
-Seu Nome
+Eduardo Chimchek Jeronimo
 
 Espero que você encontre essa ferramenta útil e fácil de usar. Se você tiver alguma dúvida ou sugestão, por favor não hesite em entrar em contato.
