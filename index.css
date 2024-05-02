@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    /* Cor de fundo bonita */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+select,
+button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para os selects */
+select {
+    width: calc(100% - 22px);
+    /* Ajuste para compensar a largura do padding */
+    padding: 8px;
+    /* Adiciona um espaçamento interno */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    border: 1px solid #ccc;
+    /* Adiciona uma borda */
+    border-radius: 4px;
+    /* Adiciona bordas arredondadas */
+    appearance: none;
+    /* Remove a aparência padrão do sistema */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 12 6"><path d="M6 0L0 6h12z"/></svg>');
+    /* Adiciona uma seta para baixo ao lado do select */
+    background-repeat: no-repeat;
+    /* Evita repetir a imagem de fundo */
+    background-position: right 8px center;
+    /* Posiciona a imagem de fundo */
+    background-size: 12px 6px;
+    /* Define o tamanho da imagem de fundo */
+    cursor: pointer;
+    /* Altera o cursor para indicar que o select é clicável */
+}

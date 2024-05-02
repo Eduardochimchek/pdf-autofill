@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Autofill</title>
+    <link rel="stylesheet" href="/index.css">
+
+    <script src="/plugins/jquery/jquery-3.6.0.min.js"></script>
+    <!-- JQUERY MODAL -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src="/index.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>PDF Autofill</h1>
+
+        <h2>Clientes</h2>
+        <select id="client-select"></select>
+
+        <h2>Modelos de PDF</h2>
+        <select id="pdf-select"></select>
+
+        <button id="generate-pdf-btn">Gerar PDF</button>
+        <button id="access-clients-btn">Acessar Clientes Cadastrados</button>
+
+        <input type="file" id="file-input" accept=".json" style="display:none;">
+    </div>
+
+    <div id="clients-modal" title="Clientes">
+        <div id="clients-table-container"></div>
+        <button id="new-client-btn">Novo Cliente</button>
+    </div>
+    
+    <div id="new-client-modal" title="Novo Cliente" style="display: none;">
+        <form id="client-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+    
+    
+</body>
+
+</html>
